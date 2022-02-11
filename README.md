@@ -1,6 +1,6 @@
 # to_do_app
 
-A new Flutter application.
+A new Flutter application. Tracks to-do items.
 
 ## Getting Started
 
