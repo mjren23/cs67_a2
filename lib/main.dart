@@ -7,7 +7,6 @@ void main() {
   );
 }
 
-
 class ToDoApp extends StatelessWidget {
   const ToDoApp({
     Key? key,
@@ -135,12 +134,6 @@ class _HomeScreenState extends State<HomeScreen> {
             _itemlist.remove(item);
             _done.add(item);
           });
-          // Future.delayed(const Duration(milliseconds: 500), () {
-          //   setState(() {
-          //     _itemlist.remove(item);
-          //   });
-          //
-          // });
         },
       ),
     );
